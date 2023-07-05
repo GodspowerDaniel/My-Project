@@ -26,28 +26,64 @@ nav{
 }
 .nav-links li a{
     font-weight: bold;
-    color: black;
+    color: white;
     text-decoration: none;
+    transition: .3s ease;
 }
+.nav-links li a:hover{
+    color: black;
+    font-size: 18px;
 
+}
+.title-div{
+    width: 80vw;
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+}
+.title-paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    color: #099396;
+}
 .section-one{
     display: flex;
     flex-wrap: wrap;
     width: 80vw;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     column-gap: 5vw;
 }
 .section-one-image{
-    width: 37.5vw;
+    width: 300px;
     height: 300px;
 }
 .section-one-article{
     width: 37.5vw;
 }
+h3{
+    margin-bottom: 10px;
+}
 .explore{
     color: #099396;
     font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.explore1{
+    background-color: #099396;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 120px;
+    padding: 8px;
+    color: white;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+.explore1:hover{
+    background-color: black;
 }
 p{
     font-size: 1.1rem;
