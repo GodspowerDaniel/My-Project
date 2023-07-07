@@ -1,36 +1,46 @@
-*{
+/*root*/
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 /*styles for the nav-bar*/
-nav{
+nav {
     background-color: #099396;
     width: 100vw;
     height: 80px;
 }
-.logo-img{
+
+/*styles for the logo*/
+.logo-img {
     padding-top: 5px;
     margin-left: 10vw;
 }
-.nav-links{
+
+/*styles for the link div, the div where they are flexed to position horizontally indivially*/
+.nav-links {
     display: flex;
     float: right;
     margin-top: -35px;
     margin-right: 100px;
 }
-.nav-links li{
+
+/*styles for the nav-bar lists*/
+.nav-links li {
     list-style: none;
     margin-right: 50px;
 }
-.nav-links li a{
+
+/*styles for the nav-bar refs, where the pages of the other websites are links or where to navigate them from*/
+.nav-links li a {
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
-.section1{
-    /*background-color: blueviolet;*/
+
+/*styles for the first section of the page housing the goal and picture in the website*/
+.section1 {
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
@@ -38,107 +48,149 @@ nav{
     margin: auto;
     margin-top: 50px;
 }
-.section1-p{
+
+/*styles for the paragraph of the first section*/
+.section1-p {
     width: 35vw;
     font-size: 18px;
     font-weight: bold;
     color: #099396;
 }
-.main-img{
+
+/*styles for the image in the section one div. This is the main image and the first on the web page*/
+.main-img {
     width: 35vw;
     height: auto;
 }
-span{
+
+/*styles for the apan in the section one paragraph, it was spanned to give the Dantower Resources a more higher font size*/
+span {
     font-size: 25px;
-    color: black; 
+    color: black;
 }
-.mission, .vision, .history{
+
+/*styles for the mission, vision anh history statement. since they have the same styling regarding to position and background, theyre styled together*/
+.mission,
+.vision,
+.history {
     width: 80vw;
     margin: auto;
     margin-top: 50px;
     background: linear-gradient(to right, #099396, black);
 }
-.vision{
-    background: linear-gradient(to right,black, #099396)
+
+/*styles for the vision seperately, giving it a different stle of the gradient background*/
+.vision {
+    background: linear-gradient(to right, black, #099396)
 }
-h4{
+
+/*styles for h4 header which is actually the Mission and the vision header colored in white and placed at the center*/
+h4 {
     text-align: center;
     color: white;
 }
-.mission-paragraph, .vision-paragraph{
+
+/*styles for the parahraph statement of the mission and vision, they have the same styling and we put them togethjer*/
+.mission-paragraph,
+.vision-paragraph {
     text-align: center;
     background-color: white;
     padding: 10px;
 }
-.history{
+
+/*styles for the div bearing the history class*/
+.history {
     padding: 10px;
 }
 
-.history-paragraph{
+/*styles for the history paragraph with the class history-paragraph*/
+.history-paragraph {
     background-color: white;
     padding: 10px;
 }
-.Product-services, .contact-information{
+
+/*styles for the div housing the prodeuct/services and also the contact information since they have the same positioning*/
+.Product-services,
+.contact-information {
     width: 80vw;
     margin: auto;
     margin-top: 50px;
 }
-.action-call, .action-call-2{
+
+/*styles for the action call class in the product and service div. This is an href link*/
+.action-call {
     background-color: #099396;
     width: 120px;
     padding: 8px;
     border-radius: 25px;
     transition: .3s ease;
 }
-.action-call:hover{
+
+/*styles for the action call class hover*/
+.action-call:hover {
     background-color: black;
 }
-.action-call-link{
+
+/*styles for the href tag with the class action-call link*/
+.action-call-link {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
-.contact-information-paragraph{
+
+/*styles for the nav-bar*/
+.contact-information-paragraph {
     text-align: center;
 }
-h3{
+
+/*styles for the h3 tag insive the contaction information div*/
+h3 {
     text-align: center;
 }
-.action-call-2{
-    margin-left: 35vw;
-}
 
-
-
-.hr-1{
+/*styles for the first hr in the page */
+.hr-1 {
     width: 80vw;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
 }
-main{
+
+/*styles for the main in the html wchich bears the dantower and location*/
+main {
     margin: auto;
     justify-content: center;
     align-items: center;
 }
-h2, h5{
+
+/*styles for the h2 and h5 in the main tag which are the name and locatio*/
+h2,
+h5 {
     text-align: center;
 }
-h5{
+
+/*styles for the h5 sepeartely in the main tag*/
+h5 {
     margin-bottom: 10px;
 }
-.hr-2{
+
+/*styles for the second hr just before the foort*/
+.hr-2 {
     width: 80vw;
     margin: auto;
 }
-footer{
+
+/*styles for the footer section*/
+footer {
     background: #099396;
     width: 100vw;
     margin-top: 30px;
     height: 350px;
 }
-.footer-wrap{
+
+/*styles for the footer div, this is the div that is flex to have the footer links apper good and it has a wrap of the fle-wrap to make it responsive*/
+.footer-wrap {
     width: 80vw;
     margin: auto;
     display: flex;
@@ -146,58 +198,91 @@ footer{
     justify-content: space-between;
     line-height: 30px;
 }
-h6{
+
+/*styles for the h6 in the footer, the head of the indivial divs that are flexed*/
+h6 {
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
 }
-.footer-list{
+
+/*styles for the footer list*/
+.footer-list {
     list-style: none;
 }
-.footer-link{
+
+/*styles for the footer links that is the a tags. it bears the class name footer-link*/
+.footer-link {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
-.footer-link:hover{
+
+/*styles for the hover of the footer-links*/
+.footer-link:hover {
     color: #B6B4B0;
     font-size: 1.1rem;
     border-bottom: 2px solid black;
 }
-.hr-3{
+
+/*styles for the third hr which is inside the footer just after the a tag*/
+.hr-3 {
     margin-top: 10px;
     width: 80vw;
     margin: auto;
 }
-.socials{
+
+/*styles for the social icons */
+.socials {
     width: 80vw;
     margin: auto;
     margin-top: 20px;
     font-size: 20px;
 }
-.fa-youtube,.fa-instagram,.fa-tiktok{
+
+/*styles for the social icons with individual class names*/
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok {
     margin-left: 15px;
 }
 
-.fa-youtube,.fa-instagram,.fa-tiktok,.fa-square-facebook{
+/*styles for the social icons seperately*/
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok,
+.fa-square-facebook {
     background-color: white;
     padding: 10px;
     border-radius: 15px;
 }
-.fa-youtube{
+
+/*styles for the youtube social icon, for its seperate color*/
+.fa-youtube {
     color: red;
 }
-.fa-square-facebook{
+
+/*styles for the facebook social icon for its seperate color*/
+.fa-square-facebook {
     color: blue;
 }
-.fa-instagram{
+
+/*styles for the instagram social icon for its seperate color*/
+.fa-instagram {
     color: purple;
 }
-.fa-youtube:hover,.fa-instagram:hover,.fa-tiktok:hover,.fa-square-facebook:hover{
+
+/*styles for applying a hover effect on all the social icons*/
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-square-facebook:hover {
     font-size: 25px;
     cursor: pointer;
 }
-.coppyright{
+
+/*styles for the copy write statement with the classname copyright*/
+.copyright {
     margin-left: 10vw;
     margin-top: 10px;
     color: white;
