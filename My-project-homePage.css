@@ -1,214 +1,329 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*styles for the nav-bar*/
-nav{
-    background-color: #099396;
-    width: 100vw;
-    height: 80px;
+nav {
+  background-color: #099396;
+  width: 100vw;
+  height: 80px;
 }
-.logo-img{
-    padding-top: 5px;
-    margin-left: 10vw;
+.logo-img {
+  padding-top: 5px;
+  margin-left: 10vw;
 }
-.nav-links{
-    display: flex;
-    float: right;
-    margin-top: -35px;
-    margin-right: 100px;
+.nav-links {
+  display: flex;
+  float: right;
+  margin-top: -35px;
+  margin-right: 100px;
 }
-.nav-links li{
-    list-style: none;
-    margin-right: 50px;
+.nav-links li {
+  list-style: none;
+  margin-right: 50px;
 }
-.nav-links li a{
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+.nav-links li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
-.h3{
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
-}
-.intoduction{
-    background: linear-gradient(to bottom, #099396, #C4C8E1);
-}
-.sales-div{
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
-}
-.slider{
-    width: 80vw;
-    margin: auto;
-    margin-top: 30px;
-}
-.d-block{
-    width: 50vw;
-    height: 300px;
-    border-radius: 5px 50px;
-}
-.p-slider1{
-    font-size: 16px;
-    color: #099396;
-    text-decoration: underline;
-}
-.a-slider{
-    text-decoration: none;
-}
-.p-slider2{
-    background-color: #099396;
-    width: 120px;
-    padding: 10px;
-    border-radius: 50px;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-}
-.intoduction, .article-one, .article-two, .article-three{
-    width: 80vw;
-    margin: auto;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 1.2rem;
-}
-.article-one{
-    background: linear-gradient(to bottom, black, #099396);
 
+.header-title {
+  max-width: 70%;
+  margin: 1rem auto;
 }
-h4{
-    color: white;
-    margin-bottom: 10px;
-    padding: 5px;
-    cursor: pointer;
+
+.title-paragraph {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
 }
-.paragraph-one{
-    background: #C4C8E1;
-    border-radius: 5px;
-    padding: 5px;
-    display: none;
+
+.title-img {
+  width: 400px;
+  margin: 1rem auto;
+} /* title-img contain is here for incase you needed to add more images, you can use it as your flex container */
+
+.title-img img {
+  width: 100%;
 }
-.fa-solid{
-    cursor: pointer;
+
+.intoduction {
+  background: linear-gradient(to bottom, #099396, #c4c8e1);
 }
-.article-one.open p{
-    display: block;
+
+.introductory-paragraph {
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  line-height: 2.5rem;
 }
-.hr-1{
-    width: 80vw;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 10px;
+
+.sales-div .sales-paragraph {
+  font-weight: bold;
+  text-align: justify;
+  font-size: 1.4rem;
 }
-main{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+
+.sales-paragraph span {
+  color: red;
 }
-h2, h5{
-    text-align: center;
+
+/* .slider {
+  width: 80vw;
+  margin: auto;
+  margin-top: 30px;
+} */
+
+.d-block {
+  width: 80vw;
+  height: 300px;
+  border-radius: 5px 50px;
 }
-h5{
-    margin-bottom: 10px;
+.p-slider1 {
+  padding: 0.3rem 0;
+  color: #099396;
+  text-decoration: underline;
+  font-size: larger;
 }
-.hr-2{
-    width: 80vw;
-    margin: auto;
+.a-slider {
+  text-decoration: none;
 }
-footer{
-    background: #099396;
-    width: 100vw;
-    margin-top: 30px;
-    height: 350px;
+
+.a-slider .p-slider1:hover, .a-slider .p-slider2:hover {
+  transform: translateX(10px);;
+} /** just a simple transition effect **/
+
+.p-slider2 {
+  background-color: #099396;
+  width: 120px;
+  padding: 10px;
+  border-radius: 50px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
-.footer-wrap{
-    width: 80vw;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    line-height: 30px;
+
+/*** Compare the below code with the one I commented out to understand what changed****/
+.intoduction,
+.article-one,
+.article-two,
+.article-three,
+.sales-div, .slider {
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
-h6{
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 20px;
+
+/* .article-one,
+.article-two,
+.article-three {
+  width: 80vw;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+} */
+
+.article-one {
+  background: linear-gradient(to bottom, black, #099396);
+  padding: 0.5rem;
 }
-.footer-list{
-    list-style: none;
+h4 {
+  color: white;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
 }
-.footer-link{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
+.paragraph-one {
+  background: #c4c8e1;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 1rem;
+  display: none;
+  text-align: justify;
 }
-.footer-link:hover{
-    color: #B6B4B0;
-    font-size: 1.1rem;
-    border-bottom: 2px solid black;
+.fa-solid.fa-plus {
+  cursor: pointer;
+  padding-right: 1rem; /* added space between the icon and the letters. Note: I brought in 'fa-plus' in the class referencing to avoid conflicts b/c you may in the future have other 'fa-solid' icons in this page*/
 }
-.hr-3{
-    margin-top: 10px;
-    width: 80vw;
-    margin: auto;
+.article-one.open p {
+  display: block;
 }
-.socials{
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 20px;
+.hr-1 {
+  width: 80vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
-.fa-youtube,.fa-instagram,.fa-tiktok{
-    margin-left: 15px;
+
+/*** Why do you have this code here! ****/
+/* main {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+} */
+
+h2,
+h5 {
+  text-align: center;
 }
-.fa-youtube,.fa-instagram,.fa-tiktok,.fa-square-facebook{
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
+
+#brandName, .article-one h4 {
+  transition: 1s;
 }
-.fa-youtube{
-    color: red;
+
+.article-one h4:hover{
+  transform: scale(1.009);
 }
-.fa-square-facebook{
-    color: blue;
+
+#brandName:hover {
+  transform: scale(1.1);
 }
-.fa-instagram{
-    color: purple;
+
+
+h5 {
+  margin-bottom: 10px;
 }
-.fa-youtube:hover,.fa-instagram:hover,.fa-tiktok:hover,.fa-square-facebook:hover{
-    font-size: 25px;
-    cursor: pointer;
+.hr-2 {
+  width: 80vw;
+  margin: auto;
 }
-.coppyright{
-    margin-left: 10vw;
-    margin-top: 10px;
-    color: white;
+footer {
+  background: #099396;
+  width: 100vw;
+  margin-top: 30px;
+  height: 350px;
+}
+.footer-wrap {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 30px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.footer-link:hover {
+  color: #b6b4b0;
+  font-size: 1.1rem;
+  border-bottom: 2px solid black;
+}
+.hr-3 {
+  margin-top: 10px;
+  width: 80vw;
+  margin: auto;
+}
+.socials {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok {
+  margin-left: 15px;
+}
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok,
+.fa-square-facebook {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-square-facebook {
+  color: blue;
+}
+.fa-instagram {
+  color: purple;
+}
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-square-facebook:hover {
+  font-size: 25px;
+  cursor: pointer;
+}
+.coppyright {
+  margin-left: 10vw;
+  margin-top: 10px;
+  color: white;
 }
 /*Media Querry*/
-@media  screen and (max-width: 550px){
-    .title-img{
-        width: 250px;
-        margin: auto;
-    }
-    .nav-links{
-        display: none;
-    }
-    .d-block{
-        height: 250px;
-        border-radius: 5px 50px;
-        width: 80vw;
-    }
-    .sales-div-img1{
-        width: 80vw;
-        height: 230px;
-       
-    }
-    .sales-div-img2, .sales-div-img3{
-        margin-top: 30px;
-    }
+@media screen and (max-width: 550px) {
+  .nav-links {
+    display: none;
+  }
+
+  .title-img {
+    width: 250px;
+  } /* reduced the width of the container*/
+
+  .header-title {
+    margin: 1rem auto;
+  }
+
+  .title-paragraph {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+  }
+
+  .introductory-paragraph {
+    line-height: normal;
+  } /** removed the line height in mobile view **/
+
+  .intoduction,
+  .article-one,
+  .article-two,
+  .article-three,
+  .sales-div {
+    width: 90%;
+  } /** Expanded the width a little for small screen **/
+
+  .d-block {
+    height: 250px;
+    border-radius: 5px 50px;
+    width: 80vw;
+  }
+  .sales-div-img1 {
+    width: 80vw;
+    height: 230px;
+  }
+  .sales-div-img2,
+  .sales-div-img3 {
+    margin-top: 30px;
+  }
+
+  .p-slider1 {
+    font-size: 16px;
+  }
+
 }
