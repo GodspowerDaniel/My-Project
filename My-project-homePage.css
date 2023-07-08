@@ -1,3 +1,4 @@
+
 * {
   margin: 0px;
   padding: 0px;
@@ -275,9 +276,263 @@ h6 {
   margin-left: 10vw;
   margin-top: 10px;
   color: white;
+
+/*root*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+/*styles for the nav-bar*/
+nav {
+    background-color: #099396;
+    width: 100vw;
+    height: 80px;
+}
+
+/*styles for the logo*/
+.logo-img {
+    padding-top: 5px;
+    margin-left: 10vw;
+}
+
+/*styles for the link div, the div where they are flexed to position horizontally indivially*/
+.nav-links {
+    display: flex;
+    float: right;
+    margin-top: -35px;
+    margin-right: 100px;
+}
+
+/*styles for the nav-bar lists*/
+.nav-links li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/*styles for the nav-bar refs, where the pages of the other websites are links or where to navigate them from*/
+.nav-links li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/*styles for the title header*/
+.h3 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*styles for the introduction paragraph in the introductory articl*/
+.intoduction {
+    background: linear-gradient(to bottom, #099396, #C4C8E1);
+}
+
+/*styles for the div housing the sales copy ad with the classname sales-div*/
+.sales-div {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*styles for the carouel with the classname slider. This is a bootstrap carousel*/
+.slider {
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*styles for the images in the carousel*/
+.d-block {
+    width: 50vw;
+    height: 300px;
+    border-radius: 5px 50px;
+}
+
+.p-slider1 {
+    font-size: 16px;
+    color: #099396;
+    text-decoration: underline;
+}
+
+.a-slider {
+    text-decoration: none;
+}
+
+.p-slider2 {
+    background-color: #099396;
+    width: 120px;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.intoduction,
+.article-one,
+.article-two,
+.article-three {
+    width: 80vw;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.article-one {
+    background: linear-gradient(to bottom, black, #099396);
+
+}
+
+h4 {
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.paragraph-one {
+    background: #C4C8E1;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.article-one.open p {
+    display: block;
+}
+
+.hr-1 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,
+h5 {
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.hr-2 {
+    width: 80vw;
+    margin: auto;
+}
+
+footer {
+    background: #099396;
+    width: 100vw;
+    margin-top: 30px;
+    height: 350px;
+}
+
+.footer-wrap {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-link:hover {
+    color: #B6B4B0;
+    font-size: 1.1rem;
+    border-bottom: 2px solid black;
+}
+
+.hr-3 {
+    margin-top: 10px;
+    width: 80vw;
+    margin: auto;
+}
+
+.socials {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok {
+    margin-left: 15px;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok,
+.fa-square-facebook {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-square-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-square-facebook:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.coppyright {
+    margin-left: 10vw;
+    margin-top: 10px;
+    color: white;
+
+}
+
 /*Media Querry*/
 @media screen and (max-width: 550px) {
+
   .nav-links {
     display: none;
   }
@@ -327,3 +582,31 @@ h6 {
   }
 
 }
+
+    .title-img {
+        width: 250px;
+        margin: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .d-block {
+        height: 250px;
+        border-radius: 5px 50px;
+        width: 80vw;
+    }
+
+    .sales-div-img1 {
+        width: 80vw;
+        height: 230px;
+
+    }
+
+    .sales-div-img2,
+    .sales-div-img3 {
+        margin-top: 30px;
+    }
+}
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomePage</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,6 +24,21 @@
   </head>
 
   <body>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2d33b274ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="My-project-homePage.css">
+</head>
+
+<body>
+
+    <!--This is the markup for the navigation menu, our links for exploring the website-->
+
+
     <nav>
       <div class="logo">
         <img
@@ -56,6 +72,7 @@
       </div>
     </nav>
 
+
     <header>
       <div class="header-title">
         <h1 class="title-paragraph">
@@ -67,6 +84,21 @@
         <img class="title-img-left" src="grad-removebg-preview.png" alt="" />
       </div>
     </header>
+
+    <!--This is the markup for the main tag which is housing the Title header h3 with class title-paragraph 
+            and the first image in the page with class title-img-->
+
+    <main>
+        <div class="h3">
+            <h3 class="title-paragraph">
+                Our Resources Empowers You For Excellence. <br> How And Why It Is Important!
+            </h3>
+        </div>
+        <img class="title-img" src="grad-removebg-preview.png" alt="">
+    </main>
+
+
+    <!--This is the html for the introductory aticle in the page. it bears the classname introduction-->
 
     <article class="intoduction">
       <p class="introductory-paragraph">
@@ -80,6 +112,8 @@
       </p>
     </article>
 
+    <!--This is the html for the sales-div in the page, it actually points what we do. it bears the classname sales-div and has a paragraph inside-->
+
     <div class="sales-div">
       <p class="sales-paragraph">
         We Bring Ease to your Educational journey, Tgrough the Accessibility of
@@ -88,6 +122,7 @@
             and more!</span>
       </p>
     </div>
+
 
     <!-- CAROUSEL SECTION BEGINS -->
     <section class="slider">
@@ -136,6 +171,44 @@
       </div>
     </section>
 
+    <!--This is the html carousel in the in the page, it is a bootstrap slider. it bears the classname slider-->
+
+    <div class="slider">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a class="a-slider" href=""><iframe class="d-block"
+                            src="https://www.youtube.com/embed/qLO2XFIvZyM?playlist=qLO2XFIvZyM&loop=1autoplay=1&mute=1"
+                            title="How to Calculate Crypto Prices" frameborder="0">
+                        </iframe>
+                        <p class="p-slider1">Some representative placeholder content for the third slide.</p>
+                        <p class="p-slider2">View More!</p>
+                    </a>
+
+                </div>
+                <div class="carousel-item">
+                    <a class="a-slider" href=""><img src="access-pastquestions.jpg" class="d-block" alt="...">
+                        <p class="p-slider1">Some representative placeholder content for the third slide.</p>
+                        <p class="p-slider2">View More!</p>
+                    </a>
+
+                </div>
+
+                <div class="carousel-item">
+                    <a href="" class="a-slider"><img src="whiteboard-resources.jpg" class="d-block" alt="...">
+                        <p class="p-slider1">Some representative placeholder content for the third slide.</p>
+                        <p class="p-slider2">View More!</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--This is the html for the first aticle tag in the page. it bears the classname article-one, 
+        it contains a h4 tag, an awesome font tag and has a paragraph-->
+
+
     <article class="article-one">
       <h4>
         <i class="fa-solid fa-plus"></i>Encouraging Self-paced and Flexible
@@ -149,6 +222,10 @@
         their learning journey to their specific needs.
       </p>
     </article>
+
+    <!--This is the html for the first aticle tag in the page. it bears the classname article-one, 
+        it contains a h4 tag, an awesome font tag and has a paragraph-->
+
     <article class="article-one">
       <h4>
         <i class="fa-solid fa-plus"></i>Supplementing Classroom Instruction
@@ -165,7 +242,11 @@
       </p>
     </article>
 
+    <!--This is the html for the first aticle tag in the page. it bears the classname article-one, 
+        it contains a h4 tag, an awesome font tag and has a paragraph-->
+
     <article class="article-one">
+
       <h4>
         <i class="fa-solid fa-plus"></i>Diverse Learning Styles due to
         Individual Differences
@@ -189,6 +270,32 @@
     </section>
     <hr class="hr-2" />
 
+        <h4><i class="fa-solid fa-plus"></i>Diverse Learning Styles due to Individual Differences</h4>
+        <p class="paragraph-one">
+            Each individual has a unique learning style and preferences.
+            Some students are visual learners, while others grasp information better through auditory or kinesthetic
+            means.
+            Educational resources offer a variety of formats and modalities, catering to diverse learning styles.
+            Visual learners may benefit from infographics, diagrams, and videos, while auditory learners can access
+            lectures,
+            podcasts, or audio recordings.
+            By accommodating different learning styles, educational resources foster inclusive and personalized learning
+            experiences.
+        </p>
+        <!--This is artcles all contains the same classname because they will have the same style in the css, 
+            only the contents in the artcles are what changed but their formats are all the same-->
+    </article>
+
+    <!--A maped out section Showing Company name and can be seen in all pages of the website-->
+    <hr class="hr-1">
+    <main>
+        <h2>DANTOWER RESOURCES</h2>
+        <h5>IMO STATE, NIGERIA</h5>
+    </main>
+    <hr class="hr-2">
+
+
+    <!--Section for the footer, this can be seen on every page of the website with the same markup and styling-->
     <footer>
       <div class="footer-wrap">
         <div class="column-1">
@@ -203,6 +310,7 @@
             <a class="footer-link" href="">Overview</a>
           </li>
         </div>
+
 
         <div class="column-2">
           <h6>CONTACT</h6>
@@ -229,6 +337,31 @@
             <a class="footer-link" href="">Overview</a>
           </li>
         </div>
+
+        <!--Section for showing our social media icon to from which you can reach us in our socail media platforms-->
+        <div class="socials">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+        <!--Section for the Copywrite statement-->
+        <p class="coppyright">Copyright @Dantower Resources</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="column-4">
           <h6>ABOUT US</h6>
