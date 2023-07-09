@@ -96,6 +96,7 @@ h4 {
     text-align: center;
     background-color: white;
     padding: 10px;
+    text-align: justify;
 }
 
 /*styles for the div bearing the history class*/
@@ -107,6 +108,7 @@ h4 {
 .history-paragraph {
     background-color: white;
     padding: 10px;
+    text-align: justify;
 }
 
 /*styles for the div housing the prodeuct/services and also the contact information since they have the same positioning*/
@@ -116,7 +118,9 @@ h4 {
     margin: auto;
     margin-top: 50px;
 }
-
+.Product-services-paragraph{
+    text-align: justify;
+}
 /*styles for the action call class in the product and service div. This is an href link*/
 .action-call {
     background-color: #099396;
