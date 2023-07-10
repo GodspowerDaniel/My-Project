@@ -97,6 +97,146 @@
   h4{
     text-align: center;
   }
-  h6{
-    text-align: center;
+  
+  h2,
+h5 {
+  text-align: center;
+}
+
+#brandName,
+.article-one h4 {
+  transition: 1s;
+}
+
+.article-one h4:hover {
+  transform: scale(1.009);
+}
+
+#brandName:hover {
+  transform: scale(1.1);
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+.hr-2 {
+  width: 80vw;
+  margin: auto;
+}
+footer {
+  background: #099396;
+  width: 100vw;
+  margin-top: 30px;
+  height: 350px;
+}
+.footer-wrap {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 30px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.footer-link:hover {
+  color: #b6b4b0;
+  font-size: 1.1rem;
+  border-bottom: 2px solid black;
+}
+.hr-3 {
+  margin-top: 10px;
+  width: 80vw;
+  margin: auto;
+}
+.socials {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok {
+  margin-left: 15px;
+}
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok,
+.fa-square-facebook {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-square-facebook {
+  color: blue;
+}
+.fa-instagram {
+  color: purple;
+}
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-square-facebook:hover {
+  font-size: 25px;
+  cursor: pointer;
+}
+.coppyright {
+  margin-left: 10vw;
+  margin-top: 10px;
+  color: white;
+}
+/*Media Querry*/
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
   }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #099396;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    border-top: 2px solid #ccc;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
