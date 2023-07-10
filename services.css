@@ -81,3 +81,22 @@
   /* *******
   Navigation Bar Ends --------------------------------
   **********/
+
+  main{
+    width: 100%;
+  background-color: #e6ffff;
+  padding: 2rem;
+  }
+
+  .past-questions{
+    background-color: white;
+    padding: 2rem;
+    margin-top: 50px;
+  }
+
+  h4{
+    text-align: center;
+  }
+  h6{
+    text-align: center;
+  }

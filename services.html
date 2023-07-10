@@ -38,16 +38,17 @@
     </header>
 
 
+    <main>
     <div class="past-questions">
 
-        <h4> ALVAN IKOKU FEDERAL COLLEGE EDUCATION OWERRI <br>
+        <h6> ALVAN IKOKU FEDERAL COLLEGE EDUCATION OWERRI <br>
             DEPARTMENT OF F HISTORY AND INTERNATIONAL STUDIES <br>
             SECOND SEMESTER 2 2020/2021 DEGREE EXAMINATION <br>
             COURSE TITLE: ISSUES IN INTERNATIONAL RELATIONS <br>
             COURSE CODE: HIS 402 <br>
             TIME ALLOWED: 2 HRS <br>
             INSTRUCTION: ANSWER ANY FOUR QUESTIONS ONLY
-        </h4>
+        </h6>
         <p>
             1a) What do you understand by the term " Cold war"? <br>
             2a) State clearly and examine the contents of the nolicios of containment and Marchall plan ot harry Truman
@@ -263,6 +264,110 @@ are in the log phase of growth. <br>
    
 </p>
 </div>
+</main>
+
+<hr class="hr-1" />
+  <section id="brandName">
+    <h2>DANTOWER RESOURCES</h2>
+    <h5>IMO STATE, NIGERIA</h5>
+  </section>
+  <hr class="hr-2" />
+
+  <footer>
+    <div class="footer-wrap">
+      <div class="column-1">
+        <h6>HOME</h6>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+      </div>
+
+      <div class="column-2">
+        <h6>CONTACT</h6>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+      </div>
+
+      <div class="column-3">
+        <h6>ABOUT US</h6>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+      </div>
+
+      <div class="column-4">
+        <h6>ABOUT US</h6>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="">Overview</a>
+        </li>
+      </div>
+    </div>
+    <hr class="hr-3" />
+
+    <div class="socials">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <p class="coppyright">Copyright @Dantower Resources</p>
+  </footer>
+
+  <script>
+    // JavaScript to toggle the visibility of the hamburger menu
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    const content = document.querySelector(".content");
+
+    const article = document.querySelectorAll('.article-one');
+
+    article.forEach(article => {
+      article.addEventListener('click', () => {
+        article.classList.toggle('open');
+      })
+    });
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll(".nav-link").forEach((n) =>
+      n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        content.classList.toggle("shifted");
+      })
+    );
+
+
+  </script>
 
 </body>
 
