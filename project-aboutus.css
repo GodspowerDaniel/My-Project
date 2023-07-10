@@ -5,40 +5,114 @@
     box-sizing: border-box;
 }
 
-/*styles for the nav-bar*/
-nav {
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .layout-container {
+    max-width: 1200;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /*styles for the nav-bar*/
+  /* nav {
     background-color: #099396;
     width: 100vw;
     height: 80px;
-}
-
-/*styles for the logo*/
-.logo-img {
+  }
+  .logo-img {
     padding-top: 5px;
     margin-left: 10vw;
-}
-
-/*styles for the link div, the div where they are flexed to position horizontally indivially*/
-.nav-links {
+  }
+  .nav-links {
     display: flex;
     float: right;
     margin-top: -35px;
     margin-right: 100px;
-}
-
-/*styles for the nav-bar lists*/
-.nav-links li {
+  }
+  .nav-links li {
     list-style: none;
     margin-right: 50px;
-}
-
-/*styles for the nav-bar refs, where the pages of the other websites are links or where to navigate them from*/
-.nav-links li a {
+  }
+  .nav-links li a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-}
-
+    transition: 0.3s ease;
+  }
+  .nav-links li a:hover {
+    color: black;
+    font-size: 18px;
+  } */
+  
+  /********
+  Navigation Start ****************
+  ***********/
+  header {
+    background-color: #099396;
+    max-width: 1920px;
+    width: 100%;
+  }
+  
+  header li {
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    width: 90%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-branding {
+    font-size: 2rem;
+  }
+  
+  .nav-link {
+    transition: 0.7s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(34, 30, 255);
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  /* *******
+  Navigation Bar Ends --------------------------------
+  **********/
+  
 /*styles for the first section of the page housing the goal and picture in the website*/
 .section1 {
     width: 80vw;
