@@ -128,7 +128,9 @@ Navigation Bar Ends --------------------------------
 .title-img {
   width: 400px;
   margin: 1rem auto;
-} /* title-img contain is here for incase you needed to add more images, you can use it as your flex container */
+}
+
+/* title-img contain is here for incase you needed to add more images, you can use it as your flex container */
 
 .title-img img {
   width: 100%;
@@ -166,12 +168,14 @@ Navigation Bar Ends --------------------------------
   height: 300px;
   border-radius: 5px 50px;
 }
+
 .p-slider1 {
   padding: 0.3rem 0;
   color: #099396;
   text-decoration: underline;
   font-size: larger;
 }
+
 .a-slider {
   text-decoration: none;
 }
@@ -179,7 +183,9 @@ Navigation Bar Ends --------------------------------
 .a-slider .p-slider1:hover,
 .a-slider .p-slider2:hover {
   transform: translateX(10px);
-} /** just a simple transition effect **/
+}
+
+/** just a simple transition effect **/
 
 .p-slider2 {
   background-color: #099396;
@@ -221,12 +227,14 @@ Navigation Bar Ends --------------------------------
   background: linear-gradient(to bottom, black, #099396);
   padding: 0.5rem;
 }
+
 h4 {
   color: white;
   margin-bottom: 10px;
   padding: 5px;
   cursor: pointer;
 }
+
 .paragraph-one {
   background: #c4c8e1;
   border-top-left-radius: 1rem;
@@ -235,13 +243,17 @@ h4 {
   display: none;
   text-align: justify;
 }
+
 .fa-solid.fa-plus {
   cursor: pointer;
-  padding-right: 1rem; /* added space between the icon and the letters. Note: I brought in 'fa-plus' in the class referencing to avoid conflicts b/c you may in the future have other 'fa-solid' icons in this page*/
+  padding-right: 1rem;
+  /* added space between the icon and the letters. Note: I brought in 'fa-plus' in the class referencing to avoid conflicts b/c you may in the future have other 'fa-solid' icons in this page*/
 }
+
 .article-one.open p {
   display: block;
 }
+
 .hr-1 {
   width: 80vw;
   margin: auto;
@@ -277,16 +289,19 @@ h5 {
 h5 {
   margin-bottom: 10px;
 }
+
 .hr-2 {
   width: 80vw;
   margin: auto;
 }
+
 footer {
   background: #099396;
   width: 100vw;
   margin-top: 30px;
   height: 350px;
 }
+
 .footer-wrap {
   width: 80vw;
   margin: auto;
@@ -295,40 +310,48 @@ footer {
   justify-content: space-between;
   line-height: 30px;
 }
+
 h6 {
   font-weight: bold;
   font-size: 18px;
   margin-top: 20px;
 }
+
 .footer-list {
   list-style: none;
 }
+
 .footer-link {
   text-decoration: none;
   color: white;
   font-size: 1rem;
 }
+
 .footer-link:hover {
   color: #b6b4b0;
   font-size: 1.1rem;
   border-bottom: 2px solid black;
 }
+
 .hr-3 {
   margin-top: 10px;
   width: 80vw;
   margin: auto;
 }
+
 .socials {
   width: 80vw;
   margin: auto;
   margin-top: 20px;
   font-size: 20px;
 }
+
 .fa-youtube,
 .fa-instagram,
 .fa-tiktok {
   margin-left: 15px;
 }
+
 .fa-youtube,
 .fa-instagram,
 .fa-tiktok,
@@ -337,15 +360,19 @@ h6 {
   padding: 10px;
   border-radius: 15px;
 }
+
 .fa-youtube {
   color: red;
 }
+
 .fa-square-facebook {
   color: blue;
 }
+
 .fa-instagram {
   color: purple;
 }
+
 .fa-youtube:hover,
 .fa-instagram:hover,
 .fa-tiktok:hover,
@@ -353,11 +380,13 @@ h6 {
   font-size: 25px;
   cursor: pointer;
 }
+
 .coppyright {
   margin-left: 10vw;
   margin-top: 10px;
   color: white;
 }
+
 /*Media Querry*/
 
 @media (max-width: 768px) {
@@ -400,7 +429,9 @@ h6 {
 
   .title-img {
     width: 250px;
-  } /* reduced the width of the container*/
+  }
+
+  /* reduced the width of the container*/
 
   .header-title {
     margin: 1rem auto;
@@ -414,7 +445,9 @@ h6 {
 
   .introductory-paragraph {
     line-height: normal;
-  } /** removed the line height in mobile view **/
+  }
+
+  /** removed the line height in mobile view **/
 
   .intoduction,
   .article-one,
@@ -422,17 +455,21 @@ h6 {
   .article-three,
   .sales-div {
     width: 90%;
-  } /** Expanded the width a little for small screen **/
+  }
+
+  /** Expanded the width a little for small screen **/
 
   .d-block {
     height: 250px;
     border-radius: 5px 50px;
     width: 80vw;
   }
+
   .sales-div-img1 {
     width: 80vw;
     height: 230px;
   }
+
   .sales-div-img2,
   .sales-div-img3 {
     margin-top: 30px;
