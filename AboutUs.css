@@ -167,6 +167,10 @@ h4 {
   text-align: justify;
 }
 
+#in-history{
+  color: red;
+}
+
 /*styles for the action call class in the product and service div. This is an href link*/
 .action-call {
   background-color: #099396;
@@ -175,6 +179,7 @@ h4 {
   border-radius: 25px;
   transition: .3s ease;
 }
+
 
 /*styles for the action call class hover*/
 .action-call:hover {
