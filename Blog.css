@@ -241,17 +241,31 @@ p {
   margin-bottom: 10px;
 }
 
+/*
 main {
   margin: auto;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 h2,
 h5 {
   text-align: center;
 }
+#brandName {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
 
+.article-one h4:hover {
+  transform: scale(1.009);
+}
+
+#brandName:hover {
+  transform: scale(1.1);
+}
 h5 {
   margin-bottom: 10px;
 }

@@ -207,17 +207,25 @@ h3 {
   margin-bottom: 10px;
 }
 
-/*styles for the main in the html wchich bears the dantower and location*/
-main {
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-}
-
 /*styles for the h2 and h5 in the main tag which are the name and locatio*/
 h2,
 h5 {
   text-align: center;
+}
+
+#brandName{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.article-one h4:hover {
+  transform: scale(1.009);
+}
+
+#brandName:hover {
+  transform: scale(1.1);
 }
 
 /*styles for the h5 sepeartely in the main tag*/
