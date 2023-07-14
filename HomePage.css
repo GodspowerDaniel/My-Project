@@ -14,37 +14,6 @@ body {
   margin: 0 auto;
 }
 
-/*styles for the nav-bar*/
-/* nav {
-  background-color: #099396;
-  width: 100vw;
-  height: 80px;
-}
-.logo-img {
-  padding-top: 5px;
-  margin-left: 10vw;
-}
-.nav-links {
-  display: flex;
-  float: right;
-  margin-top: -35px;
-  margin-right: 100px;
-}
-.nav-links li {
-  list-style: none;
-  margin-right: 50px;
-}
-.nav-links li a {
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
-.nav-links li a:hover {
-  color: black;
-  font-size: 18px;
-} */
-
 /********
 Navigation Start ****************
 ***********/
@@ -157,12 +126,6 @@ Navigation Bar Ends --------------------------------
   color: red;
 }
 
-/* .slider {
-    width: 80vw;
-    margin: auto;
-    margin-top: 30px;
-  } */
-
 .d-block {
   width: 80vw;
   height: 300px;
@@ -212,17 +175,6 @@ Navigation Bar Ends --------------------------------
   font-size: 1.2rem;
 }
 
-/* .article-one,
-  .article-two,
-  .article-three {
-    width: 80vw;
-    margin: auto;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 1.2rem;
-  } */
-
 .article-one {
   background: linear-gradient(to bottom, black, #099396);
   padding: 0.5rem;
@@ -260,13 +212,6 @@ h4 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
-/*** Why do you have this code here! ****/
-/* main {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-  } */
 
 h2,
 h5 {
