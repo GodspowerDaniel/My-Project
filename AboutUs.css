@@ -376,4 +376,14 @@ h6 {
   .nav-menu.active {
     left: 0;
   }
+  .section1 {
+    width: 80vw;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .section1-p, .main-img{
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+  }
 }
