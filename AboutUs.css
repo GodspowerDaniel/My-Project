@@ -249,13 +249,6 @@ footer {
   line-height: 30px;
 }
 
-/*styles for the h6 in the footer, the head of the indivial divs that are flexed*/
-h6 {
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 20px;
-}
-
 /*styles for the footer list*/
 .footer-list {
   list-style: none;
