@@ -1,329 +1,300 @@
 /*root*/
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .layout-container {
-    max-width: 1200;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  /*styles for the nav-bar*/
-  /* nav {
-    background-color: #099396;
-    width: 100vw;
-    height: 80px;
-  }
-  .logo-img {
-    padding-top: 5px;
-    margin-left: 10vw;
-  }
-  .nav-links {
-    display: flex;
-    float: right;
-    margin-top: -35px;
-    margin-right: 100px;
-  }
-  .nav-links li {
-    list-style: none;
-    margin-right: 50px;
-  }
-  .nav-links li a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s ease;
-  }
-  .nav-links li a:hover {
-    color: black;
-    font-size: 18px;
-  } */
-  
-  /********
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layout-container {
+  max-width: 1200;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/********
   Navigation Start ****************
   ***********/
-  header {
-    background-color: #099396;
-    max-width: 1920px;
-    width: 100%;
-  }
-  
-  header li {
-    list-style: none;
-    font-weight: bold;
-  }
-  
-  a {
-    color: aliceblue;
-    text-decoration: none;
-  }
-  
-  .navbar {
-    width: 90%;
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    margin: 0 auto;
-  }
-  
-  .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-  }
-  
-  .nav-branding {
-    font-size: 2rem;
-  }
-  
-  .nav-link {
-    color: white;
-    transition: 0.7s ease;
-  }
-  
-  .nav-link:hover {
-    color: rgb(34, 30, 255);
-  }
-  
-  .hamburger {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-  }
-  
-  /* *******
+header {
+  background-color: #099396;
+  max-width: 1920px;
+  width: 100%;
+}
+
+header li {
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 90%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: white;
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: rgb(34, 30, 255);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+/* *******
   Navigation Bar Ends --------------------------------
   **********/
-  
+
 /*styles for the first section of the page housing the goal and picture in the website*/
 .section1 {
-    width: 80vw;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 10vw;
-    margin: auto;
-    margin-top: 50px;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10vw;
+  margin: auto;
+  margin-top: 50px;
 }
 
 /*styles for the paragraph of the first section*/
 .section1-p {
-    width: 35vw;
-    font-size: 18px;
-    font-weight: bold;
-    color: #099396;
+  width: 35vw;
+  font-size: 18px;
+  font-weight: bold;
+  color: #099396;
 }
 
 /*styles for the image in the section one div. This is the main image and the first on the web page*/
 .main-img {
-    width: 35vw;
-    height: auto;
+  width: 35vw;
+  height: auto;
 }
 
 /*styles for the apan in the section one paragraph, it was spanned to give the Dantower Resources a more higher font size*/
 span {
-    font-size: 25px;
-    color: black;
+  font-size: 25px;
+  color: black;
 }
 
 /*styles for the mission, vision anh history statement. since they have the same styling regarding to position and background, theyre styled together*/
 .mission,
 .vision,
 .history {
-    width: 80vw;
-    margin: auto;
-    margin-top: 50px;
-    background: linear-gradient(to right, #099396, black);
+  width: 80vw;
+  margin: auto;
+  margin-top: 50px;
+  background: linear-gradient(to right, #099396, black);
 }
 
 /*styles for the vision seperately, giving it a different stle of the gradient background*/
 .vision {
-    background: linear-gradient(to right, black, #099396)
+  background: linear-gradient(to right, black, #099396)
 }
 
 /*styles for h4 header which is actually the Mission and the vision header colored in white and placed at the center*/
 h4 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 /*styles for the parahraph statement of the mission and vision, they have the same styling and we put them togethjer*/
 .mission-paragraph,
 .vision-paragraph {
-    text-align: center;
-    background-color: white;
-    padding: 10px;
-    text-align: justify;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  text-align: justify;
 }
 
 /*styles for the div bearing the history class*/
 .history {
-    padding: 10px;
+  padding: 10px;
 }
 
 /*styles for the history paragraph with the class history-paragraph*/
 .history-paragraph {
-    background-color: white;
-    padding: 10px;
-    text-align: justify;
+  background-color: white;
+  padding: 10px;
+  text-align: justify;
 }
 
 /*styles for the div housing the prodeuct/services and also the contact information since they have the same positioning*/
 .Product-services,
 .contact-information {
-    width: 80vw;
-    margin: auto;
-    margin-top: 50px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 50px;
 }
-.Product-services-paragraph{
-    text-align: justify;
+
+.Product-services-paragraph {
+  text-align: justify;
 }
+
 /*styles for the action call class in the product and service div. This is an href link*/
 .action-call {
-    background-color: #099396;
-    width: 120px;
-    padding: 8px;
-    border-radius: 25px;
-    transition: .3s ease;
+  background-color: #099396;
+  width: 120px;
+  padding: 8px;
+  border-radius: 25px;
+  transition: .3s ease;
 }
 
 /*styles for the action call class hover*/
 .action-call:hover {
-    background-color: black;
+  background-color: black;
 }
 
 /*styles for the href tag with the class action-call link*/
 .action-call-link {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*styles for the nav-bar*/
 .contact-information-paragraph {
-    text-align: center;
+  text-align: center;
 }
 
 /*styles for the h3 tag insive the contaction information div*/
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 /*styles for the first hr in the page */
 .hr-1 {
-    width: 80vw;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 10px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 /*styles for the main in the html wchich bears the dantower and location*/
 main {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 /*styles for the h2 and h5 in the main tag which are the name and locatio*/
 h2,
 h5 {
-    text-align: center;
+  text-align: center;
 }
 
 /*styles for the h5 sepeartely in the main tag*/
 h5 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /*styles for the second hr just before the foort*/
 .hr-2 {
-    width: 80vw;
-    margin: auto;
+  width: 80vw;
+  margin: auto;
 }
 
 /*styles for the footer section*/
 footer {
-    background: #099396;
-    width: 100vw;
-    margin-top: 30px;
-    height: 350px;
+  background: #099396;
+  width: 100vw;
+  margin-top: 30px;
+  height: 350px;
 }
 
 /*styles for the footer div, this is the div that is flex to have the footer links apper good and it has a wrap of the fle-wrap to make it responsive*/
 .footer-wrap {
-    width: 80vw;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    line-height: 30px;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 30px;
 }
 
 /*styles for the h6 in the footer, the head of the indivial divs that are flexed*/
 h6 {
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 /*styles for the footer list*/
 .footer-list {
-    list-style: none;
+  list-style: none;
 }
 
 /*styles for the footer links that is the a tags. it bears the class name footer-link*/
 .footer-link {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 
 /*styles for the hover of the footer-links*/
 .footer-link:hover {
-    color: #B6B4B0;
-    font-size: 1.1rem;
-    border-bottom: 2px solid black;
+  color: #B6B4B0;
+  font-size: 1.1rem;
+  border-bottom: 2px solid black;
 }
 
 /*styles for the third hr which is inside the footer just after the a tag*/
 .hr-3 {
-    margin-top: 10px;
-    width: 80vw;
-    margin: auto;
+  margin-top: 10px;
+  width: 80vw;
+  margin: auto;
 }
 
 /*styles for the social icons */
 .socials {
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 20px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 /*styles for the social icons with individual class names*/
 .fa-youtube,
 .fa-instagram,
 .fa-tiktok {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 /*styles for the social icons seperately*/
@@ -331,24 +302,24 @@ h6 {
 .fa-instagram,
 .fa-tiktok,
 .fa-square-facebook {
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 /*styles for the youtube social icon, for its seperate color*/
 .fa-youtube {
-    color: red;
+  color: red;
 }
 
 /*styles for the facebook social icon for its seperate color*/
 .fa-square-facebook {
-    color: blue;
+  color: blue;
 }
 
 /*styles for the instagram social icon for its seperate color*/
 .fa-instagram {
-    color: purple;
+  color: purple;
 }
 
 /*styles for applying a hover effect on all the social icons*/
@@ -356,53 +327,53 @@ h6 {
 .fa-instagram:hover,
 .fa-tiktok:hover,
 .fa-square-facebook:hover {
-    font-size: 25px;
-    cursor: pointer;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 /*styles for the copy write statement with the classname copyright*/
 .copyright {
-    margin-left: 10vw;
-    margin-top: 10px;
-    color: white;
+  margin-left: 10vw;
+  margin-top: 10px;
+  color: white;
 }
 
 
 @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-  
-    .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
-    }
-  
-    .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
-  
-    .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
-  
-    .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 70px;
-      gap: 0;
-      flex-direction: column;
-      background-color: #099396;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
-      border-top: 2px solid #ccc;
-    }
-  
-    .nav-item {
-      margin: 16px 0;
-    }
-  
-    .nav-menu.active {
-      left: 0;
-    }
-}  
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #099396;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    border-top: 2px solid #ccc;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
