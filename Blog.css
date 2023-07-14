@@ -435,10 +435,9 @@ footer {
 
   .section-four {
     display: flex;
-    flex-wrap: wrap;
   }
 
   .section-four-image {
-    width: 80vw;
+    width: 25vw;
   }
 }
