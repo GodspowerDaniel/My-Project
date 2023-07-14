@@ -249,6 +249,10 @@ footer {
   line-height: 30px;
 }
 
+.column-1,.column-2,.column-3{
+  margin-top: 50px;
+}
+
 /*styles for the footer list*/
 .footer-list {
   list-style: none;
@@ -259,13 +263,13 @@ footer {
   text-decoration: none;
   color: white;
   font-size: 1rem;
+  transition: .3s ease;
 }
 
 /*styles for the hover of the footer-links*/
 .footer-link:hover {
-  color: #B6B4B0;
+  color: black;
   font-size: 1.1rem;
-  border-bottom: 2px solid black;
 }
 
 /*styles for the third hr which is inside the footer just after the a tag*/
