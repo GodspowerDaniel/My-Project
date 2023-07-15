@@ -167,7 +167,7 @@ h4 {
   text-align: justify;
 }
 
-#in-history{
+#in-history {
   color: red;
 }
 
@@ -218,7 +218,7 @@ h5 {
   text-align: center;
 }
 
-#brandName{
+#brandName {
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -262,7 +262,9 @@ footer {
   line-height: 30px;
 }
 
-.column-1,.column-2,.column-3{
+.column-1,
+.column-2,
+.column-3 {
   margin-top: 50px;
 }
 
@@ -387,12 +389,15 @@ footer {
   .nav-menu.active {
     left: 0;
   }
+
   .section1 {
     width: 80vw;
     flex-direction: column-reverse;
     margin: auto;
   }
-  .section1-p, .main-img{
+
+  .section1-p,
+  .main-img {
     width: 80vw;
     margin: auto;
     margin-top: 20px;

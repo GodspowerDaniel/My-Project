@@ -200,81 +200,81 @@
     <section id="brandName">
       <h2>DANTOWER RESOURCES</h2>
       <h5>IMO STATE, NIGERIA</h5>
-  </section>
-  <hr class="hr-2" />
+    </section>
+    <hr class="hr-2" />
 
-  <footer>
-    <div class="footer-wrap">
-      <div class="column-1">
+    <footer>
+      <div class="footer-wrap">
+        <div class="column-1">
 
-        <li class="footer-list">
-          <a class="footer-link" href="./index.html">Home</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="./Blog.html">Blog</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="./Blog.html">Adverts</a>
-        </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./index.html">Home</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./Blog.html">Blog</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./Blog.html">Adverts</a>
+          </li>
+        </div>
+
+        <div class="column-2">
+
+          <li class="footer-list">
+            <a class="footer-link" href="./AboutUs.html">AboutUs</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./AboutUs.html">Contact</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./Services.html">Tutorials</a>
+          </li>
+        </div>
+
+        <div class="column-3">
+
+          <li class="footer-list">
+            <a class="footer-link" href="./Services.html">Services</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="./AboutUs.html">Support</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-link" href="">Privacy Policy</a>
+          </li>
+        </div>
+      </div>
+      <hr class="hr-3" />
+
+      <div class="socials">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
       </div>
 
-      <div class="column-2">
+      <p class="coppyright">Copyright @Dantower Resources</p>
+    </footer>
 
-        <li class="footer-list">
-          <a class="footer-link" href="./AboutUs.html">AboutUs</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="./AboutUs.html">Contact</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="./Services.html">Tutorials</a>
-        </li>
-      </div>
+    <script>
+      // JavaScript to toggle the visibility of the hamburger menu
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+      const content = document.querySelector(".content");
 
-      <div class="column-3">
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
 
-        <li class="footer-list">
-          <a class="footer-link" href="./Services.html">Services</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="./AboutUs.html">Support</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-link" href="">Privacy Policy</a>
-        </li>
-      </div>
-    </div>
-    <hr class="hr-3" />
-
-    <div class="socials">
-      <i class="fa-brands fa-square-facebook"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-tiktok"></i>
-    </div>
-
-    <p class="coppyright">Copyright @Dantower Resources</p>
-  </footer>
-
-  <script>
-    // JavaScript to toggle the visibility of the hamburger menu
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-    const content = document.querySelector(".content");
-
-    hamburger.addEventListener("click", () => {
-      hamburger.classList.toggle("active");
-      navMenu.classList.toggle("active");
-    });
-
-    document.querySelectorAll(".nav-link").forEach((n) =>
-      n.addEventListener("click", () => {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-        content.classList.toggle("shifted");
-      })
-    );
-  </script>
+      document.querySelectorAll(".nav-link").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+          content.classList.toggle("shifted");
+        })
+      );
+    </script>
 </body>
 
 </html>

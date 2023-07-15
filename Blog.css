@@ -252,6 +252,7 @@ h2,
 h5 {
   text-align: center;
 }
+
 #brandName {
   margin: auto;
   justify-content: center;
@@ -266,6 +267,7 @@ h5 {
 #brandName:hover {
   transform: scale(1.1);
 }
+
 h5 {
   margin-bottom: 10px;
 }
@@ -291,7 +293,9 @@ footer {
   line-height: 30px;
 }
 
-.column-1,.column-2,.column-3{
+.column-1,
+.column-2,
+.column-3 {
   margin-top: 50px;
 }
 
@@ -454,7 +458,8 @@ footer {
   .section-four-image {
     width: 25vw;
   }
-  .lorem{
+
+  .lorem {
     display: none;
   }
 }
