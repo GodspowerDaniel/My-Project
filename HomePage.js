@@ -1,4 +1,4 @@
-const article = document.querySelectorAll ('.article-one');
+const article = document.querySelectorAll('.article-one');
 
 article.forEach(article => {
     article.addEventListener('click', () => {
