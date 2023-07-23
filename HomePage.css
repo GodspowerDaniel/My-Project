@@ -160,7 +160,8 @@ Navigation Bar Ends --------------------------------
   font-weight: bold;
   transition: 0.3s ease-in;
 }
-.p-slider2:hover{
+
+.p-slider2:hover {
   background-color: black;
 }
 
