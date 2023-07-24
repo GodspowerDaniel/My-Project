@@ -21,6 +21,7 @@ header {
   background-color: #099396;
   max-width: 1920px;
   width: 100%;
+  
 }
 
 header li {
@@ -31,7 +32,7 @@ header li {
 a {
   color: aliceblue;
   text-decoration: none;
-  
+
 }
 
 .navbar {
