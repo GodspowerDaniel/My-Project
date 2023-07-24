@@ -21,7 +21,7 @@ header {
   background-color: #099396;
   max-width: 1920px;
   width: 100%;
-  
+
 }
 
 header li {
@@ -59,6 +59,7 @@ a {
 .nav-link {
   color: white;
   transition: 0.7s ease;
+  
 }
 
 .nav-link:hover {
