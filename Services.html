@@ -36,6 +36,7 @@
             </div>
         </nav>
     </header>
+    <p class="update">Past Questions on Different Courses and Academic Sessions are Being Updated Daily.</p>
 
     <div class="faculty-and-courses">
         <div class="faculty-name-and-courses">
@@ -180,9 +181,10 @@
         const hamburger = document.querySelector(".hamburger");
         const navMenu = document.querySelector(".nav-menu");
         const content = document.querySelector(".content");
+       
 
         const article = document.querySelectorAll('.article-one');
-
+        
         article.forEach(article => {
             article.addEventListener('click', () => {
                 article.classList.toggle('open');
