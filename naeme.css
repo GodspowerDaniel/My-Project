@@ -1,13 +1,260 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h3{
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layout-container {
+    max-width: 1200;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/********
+    Navigation Start ****************
+    ***********/
+header {
+    background-color: #099396;
+    max-width: 1920px;
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 90%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: rgb(34, 30, 255);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* *******
+    Navigation Bar Ends --------------------------------
+    **********/
+.PQ{
+    width: 90vw;
+    margin: auto;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bolder;
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
 }
-p{
-    margin-left: 27px;
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2,
+h5 {
+    text-align: center;
+}
+
+#brandName,
+.article-one h4 {
+    transition: 1s;
+}
+
+.article-one h4:hover {
+    transform: scale(1.009);
+}
+
+#brandName:hover {
+    transform: scale(1.1);
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.hr-2 {
+    width: 80vw;
+    margin: auto;
+}
+
+footer {
+    background: #099396;
+    width: 100vw;
+    margin-top: 30px;
+    height: 350px;
+}
+
+.footer-wrap {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    margin-top: 50px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: .3s ease;
+}
+
+.footer-link:hover {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.hr-3 {
+    margin-top: 10px;
+    width: 80vw;
+    margin: auto;
+}
+
+.socials {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok {
+    margin-left: 15px;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-tiktok,
+.fa-square-facebook {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-square-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-square-facebook:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.coppyright {
+    margin-left: 10vw;
+    margin-top: 10px;
+    color: white;
+}
+
+/*Media Querry*/
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #099396;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        border-top: 2px solid #ccc;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
 }
