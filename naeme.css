@@ -81,8 +81,42 @@ a {
 /* *******
     Navigation Bar Ends --------------------------------
     **********/
+.video-resources{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.playlists{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.part11{
+    width: 35vw;
+    margin: auto;
+    height: 100px;
+    background-color: blue;
+}
+.part12{
+    width: 35vw;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(205, 82, 16);
+}
+.part13{
+    width: 35vw;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(188, 160, 19);
+}
+.part14{
+    width: 35vw;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(74, 174, 41);
+}
 .PQ{
-    width: 90vw;
+    width: 80vw;
     margin: auto;
 }
 
