@@ -86,6 +86,7 @@ a {
     margin: auto;
     margin-top: 50px;
 }
+
 .playlists{
     display: flex;
     flex-wrap: wrap;
