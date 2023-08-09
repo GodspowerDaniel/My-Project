@@ -208,6 +208,10 @@ p {
   text-align: justify;
 }
 
+.essential{
+  font-weight: bold;
+}
+
 .section-three {
   width: 80vw;
   margin: auto;
