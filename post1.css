@@ -91,7 +91,12 @@
   .essential{
     font-weight: bold;
   }
-
+.post-img{
+  width: 50vw;
+  height: 275px;
+  margin: auto;
+  margin-left: 15vw;
+}
 
 
 
@@ -261,5 +266,10 @@
   
     .nav-menu.active {
       left: 0;
+    }
+    .post-img{
+      width: 80vw;
+      height: 150px;
+      margin: auto;
     }
 }  
