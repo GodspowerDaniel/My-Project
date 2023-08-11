@@ -91,6 +91,12 @@
   .essential{
     font-weight: bold;
   }
+
+  .in-intallics{
+    font-style: italic;
+  }
+
+  
 .post-img{
   width: 50vw;
   height: 300px;
