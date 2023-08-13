@@ -131,6 +131,17 @@
   height: 150px;
 }
 
+
+.explore {
+  display: block;
+  color: #099396;
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
   .hr-1 {
     width: 80vw;
     margin: auto;
