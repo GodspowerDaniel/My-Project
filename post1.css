@@ -96,12 +96,39 @@
     font-style: italic;
   }
 
-  
+
 .post-img{
   width: 50vw;
   height: 300px;
   margin: auto;
   margin-left: 15vw;
+}
+
+
+.section-header {
+  width: 12rem;
+  margin: 1rem auto;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 4px solid #099396;
+}
+
+.section-header h1 {
+  padding-bottom: 0.5rem;
+}
+
+.section-four {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  column-gap: 5vw;
+}
+
+.section-four-image {
+  width: 22vw;
+  height: 150px;
 }
 
   .hr-1 {
@@ -275,5 +302,18 @@
       width: 80vw;
       height: 220px;
       margin: auto;
+    }
+    .section-four {
+      display: flex;
+    }
+  
+    .section-four-image {
+      width: 25vw;
+      height: 100px;
+      border-radius: 5%;
+    }
+  
+    .lorem {
+      display: none;
     }
 }  
