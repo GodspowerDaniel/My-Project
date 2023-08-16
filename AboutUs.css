@@ -172,19 +172,7 @@ h4 {
 }
 
 /*styles for the action call class in the product and service div. This is an href link*/
-.action-call {
-  background-color: #099396;
-  width: 120px;
-  padding: 8px;
-  border-radius: 25px;
-  transition: .3s ease;
-}
 
-
-/*styles for the action call class hover*/
-.action-call:hover {
-  background-color: black;
-}
 
 /*styles for the href tag with the class action-call link*/
 .action-call-link {
