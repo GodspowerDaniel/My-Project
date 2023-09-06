@@ -84,18 +84,27 @@ a {
 
 main {
   width: 100%;
-  background-color: #e6ffff;
-  padding: 2rem;
+  background-color: #099396;
+  padding: 1rem;
 }
 
 .past-questions {
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+    
 }
 
-h4 {
+h3 {
   text-align: center;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 18px;
 }
 
 h2,
