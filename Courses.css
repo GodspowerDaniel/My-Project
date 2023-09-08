@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -105,6 +108,22 @@ h3 {
 }
 p{
   font-size: 20px;
+}
+.scroller > a{
+  color: white;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #099396;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+#level2{
+  background-color: green;
+}
+#level4{
+  background-color: red;
 }
 
 h2,
